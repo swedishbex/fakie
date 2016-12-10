@@ -1,0 +1,16 @@
+﻿		productItem theClickedProduct = (productItem)eventInfo.SelectedItem;
+
+				System.Diagnostics.Debug.WriteLine(theClickedProduct.productTitle);
+
+				productsListView.SelectedItem = null;
+
+				// Skapa sidan
+				productinfoPage pinfo = new productinfoPage();
+
+
+				//Ändra i sidan
+				pinfo.currentProduct = theClickedProduct;
+
+
+				// Öppna sidan
+				Navigation.PushAsync(pinfo);
