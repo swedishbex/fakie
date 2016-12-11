@@ -7,18 +7,29 @@
 				"1": "Norrköping",
                 "2": "Motala",
 				"3": "Finspång",
-				"4": "Mjölby"
+				"4": "Mjölby",
+				"5": "Söderköping",
+                "6": "Åtvidaberg",
+				"7": "Ljungsbro",
+				"8": "Vadstena",
+                "9": "Malmslätt"
 			}
         },
 		"Örebro": {
 			"Cities": {
-				"0": "xxx",
-				"1": "xxx",
-                "2": "xxx",
-				"3": "xxx",
-				"4": "xxx"
+				"0": "Örebro",
+                "1": "Karlskoga",
+                "2": "Kumla",
+				"3": "Lindesberg",
+				"4": "Degerfors",
+                "5": "Hallsberg",
+                "6": "Nora",
+				"7": "Hällefors",
+				"8": "Askersund",
+                "9": "Laxå"
 			}
 		},
+	
 		"Västra götalands län": {
 			"Cities": {
 				"0": "Göteborg",
@@ -35,62 +46,113 @@
 		},
         "Västmanland": {
 			"Cities": {
-				"0": "xxx",
-				"1": "xxx",
-                "2": "xxx",
-				"3": "xxx",
-				"4": "xxx"
+				"0": "Västerås",
+				"1": "Köping",
+                "2": "Sala",
+				"3": "Fagersta",
+				"4": "Hallstahammar",
+				"5": "Arboga",
+                "6": "Surahammar",
+				"7": "Kungsör",
+				"8": "Norberg",
+				"9": "Skultuna"
 			}
 		},
 		"Västernorrland": {
 			"Cities": {
-				"0": "xxx",
-				"1": "xxx",
-                "2": "xxx",
-				"3": "xxx",
-				"4": "xxx"
+				"0": "Sundsvall",
+                "1": "Örnsköldsvik",
+                "2": "Härnösand",
+				"3": "Timrå",
+				"4": "Sollefteå",
+                "5": "Kramfors",
+                "6": "Vi",
+				"7": "Matfors",
+				"8": "Ånge",
+                "9": "Johannedal"
 			}
 		},
 		"Västerbotten": {
 			"Cities": {
-				"0": "xxx",
-				"1": "xxx",
-                "2": "xxx",
-				"3": "xxx",
-				"4": "xxx"
+				"0": "Umeå",
+                "1": "Skellefteå",
+                "2": "Lycksele",
+				"3": "Holmsund",
+				"4": "Vännäs",
+                "5": "Ursviken",
+                "6": "Vilhelmina",
+				"7": "Skelleftehamn",
+				"8": "Nordmaling",
+                "9": "Hörnefors"
 			}
 		},
 		"Värmland": {
 			"Cities": {
-				"0": "xxx",
-				"1": "xxx",
-                "2": "xxx",
-				"3": "xxx",
-				"4": "xxx"
+				"0": "Karlstad",
+                "1": "Kristinehamn",
+                "2": "Arvika",
+				"3": "Skoghall",
+				"4": "Säffle",
+                "5": "Kil",
+                "6": "Forshaga",
+				"7": "Filipstad",
+				"8": "Skåre",
+                "9": "Hagfors"
 			}
 		},
 		"Uppsala": {
 			"Cities": {
-				"0": "xxx",
-				"1": "xxx",
-                "2": "xxx",
-				"3": "xxx",
-				"4": "xxx"
+				"0": "Uppsala",
+				"1": "Enköping",
+                "2": "Bålsta",
+				"3": "Sävja",
+				"4": "Knivsta",
+                "5": "Storvreta",
+                "6": "Skutskär",
+				"7": "Tierp",
+				"8": "Östhammar",
+                "9": "Björklinge",
+				"10": "Gimo",
+				"11": "Alsike",
+                "12": "Heby",
+				"13": "Bälinge",
+				"14": "Alunda",
+                "15": "Österbybruk",
+                "16": "Örbyhus",
+				"17": "Örsundsbro",
+				"18": "Älvkarleby",
+                "19": "Östervåla",
+				"20": "Söderfors",
+				"21": "Öregrund"	
+			
 			}
 		},
 		"Södermanland": {
 			"Cities": {
-				"0": "xxx",
-				"1": "xxx",
-                "2": "xxx",
-				"3": "xxx",
-				"4": "xxx"
+				"0": "Eskilstuna",
+				"1": "Nyköping",
+                "2": "Katrineholm",
+				"3": "Strängnäs",
+				"4": "Oxelösund",
+				"5": "Torshälla",
+                "6": "Flen",
+				"7": "Gnesta",
+				"8": "Trosa",
+                "9": "Vingåker"
 			}
-		},
+		},	
 		"Stockholm": {
 			"Cities": {
-				"0": "xxx",
-				"1": "xxx"
+				"0": "Stockholm",
+				"1": "Södertälje",
+                "2": "Täby",
+				"3": "Tumba",
+				"4": "Upplands Väsby",
+				"5": "Lidingö",
+                "6": "Vallentuna",
+				"7": "Åkersberga",
+				"8": "Märsta",
+                "9": "Boo"
 			}
 		},
 		"Skåne": {
@@ -104,13 +166,27 @@
                 "6": "Ängelholm",
 				"7": "Hässleholm",
 				"8": "Ystad",
-                "9": "Eslöv"
+                "9": "Eslöv",
+				"10": "Stehag",
+				"11": "Höör",
+				"12": "Kävlinge",
+				"13": "Bjuv",
+				"14": "Höganäs",
+				"15": "Örkelljunga"
 			}
 		},
 		"Norrbotten": {
 			"Cities": {
-				"0": "xxx",
-				"1": "xxx"
+				"0": "Luleå",
+				"1": "Piteå",
+                "2": "Boden",
+				"3": "Kiruna",
+				"4": "Gällivare",
+				"5": "Kalix",
+                "6": "Malmberget",
+				"7": "Älvsbyn",
+				"8": "Gammelstaden",
+                "9": "Haparanda"
 			}
 		},
 		"Kronoberg": {
@@ -147,8 +223,16 @@
 		},
 		"Jämtland": {
 			"Cities": {
-				"0": "xxx",
-				"1": "xxx"
+				"0": "Östersund",
+				"1": "Brunflo",
+                "2": "Strömsund",
+				"3": "Sveg",
+				"4": "Krokom",
+				"5": "Bräcke",
+                "6": "Åre",
+				"7": "Järpen",
+				"8": "Ås",
+                "9": "Hammarstrand"
 			}
 		},
 		"Halland": {
@@ -162,8 +246,11 @@
 		},
 		"Gävleborg": {
 			"Cities": {
-				"0": "xxx",
-				"1": "xxx"
+				"0": "Gävle",
+				"1": "Sandviken",
+                "2": "Hudiksvall",
+				"3": "Bollnäs",
+				"4": "Söderhamn"
 			}
 		},
 		"Gotland": {
@@ -177,8 +264,16 @@
 		},
 		"Dalarna": {
 			"Cities": {
-				"0": "xxx",
-				"1": "xxx"
+				"0": "Borlänge",
+				"1": "Falun",
+                "2": "Avesta",
+				"3": "Ludvika",
+				"4": "Mora",
+				"5": "Hedemora",
+                "6": "Leksand",
+				"7": "Orsa",
+				"8": "Malung",
+                "9": "Smedjebacken"
 			}
 		},
 		"Blekinge": {
@@ -195,11 +290,87 @@
 		"Malmö": {
 			"Region": "Skåne",
 			"Parks": {
-				"0": "Bryggeriet"
+				"0": "Bryggeriet",
+				"1": "Badbryggan",
+                "2": "Stapelbäddsparken",
+				"3": "Sibbarp Skatepark",
+				"4": "Kroksbäck skatepark",
+				"5": "Oxie Skatepark",
+                "6": "Bara Skatepark"
+			}
+		},
+		"Örkelljunga": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Örkelljunga Skatepark"
+			}
+		},
+		"Ängelholm": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Ängelholm Skatepark"
+			}
+		},
+		"Höganäs": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Kullask8en Skatepark"
+			}
+		},
+		"Bjuv": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Bjuv Skatepark"
+			}
+		},
+		"Helsingborg": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Jutan"
+			}
+		},
+		"Landskrona": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Lagunen Skatepark"
+			}
+		},
+		"Kävlinge": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Kävlinge Skatepark"
+			}
+		},
+		"Höör": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Höör Skatepark"
+			}
+		},
+		"Stehag": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Tors Skatepark"
 			}
 		},
 		"Lund": {
-			"Region": "Skåne"
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Östra Torn Skateboardhall",
+				"1": "Söderlyckan Skatepark"
+			}
+		},
+		"Kristianstad": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Kristianstad Streetplaza"
+			}
+		},	
+		"Trelleborg": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Gasverket"
+			}
 		},
 		"Göteborg": {
 			"Region": "Västra götalands län"
@@ -209,6 +380,128 @@
 		}
 	},
 	"parks": {
+              
+		"Örkelljunga Skatepark": {
+			"City": "Örkelljunga",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "56.2829322582",
+				"long": "13.2858701165"
+			}
+		},
+		"Ängelholm Skatepark": {
+			"City": "Ängeholm",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "56.2459407348",
+				"long": "12.880050955"
+			}
+		},	
+		"Kullask8en": {
+			"City": "Höganäs",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "56.1940464282",
+				"long": "12.5638667"
+			}
+		},
+		"Bjuv Skatepark": {
+			"City": "Bjuv",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "56.0857889",
+				"long": "12.9155082"
+			}
+		},
+		"Jutan": {
+			"City": "Helsingborg",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "56.0315936",
+				"long": "12.7090293"
+			}
+		},
+		"Lagunen Skatepark": {
+			"City": "Landskrona",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "55.8714906",
+				"long": "12.8193019"
+			}
+		},
+		"Kävlinge Skatepark": {
+			"City": "Kävlinge",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "55.7836506598",
+				"long": "13.0915170093"
+			}
+		},
+		"Höör Skatepark": {
+			"City": "Höör",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "55.9357320943",
+				"long": "13.5514634418"
+			}
+		},
+		"Tors Skatepark": {
+			"City": "Stehag",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "55.9027309542",
+				"long": "13.3983269952"
+			}
+		},
+		"Östra Torn Skateboardhall": {
+			"City": "Lund",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "55.7097752",
+				"long": "13.2244644"
+			}
+		},
+		"Söderlyckan Skatepark": {
+			"City": "Lund",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "55.6958026349",
+				"long": "13.1871508804"
+			}
+		},
 		"Bryggeriet": {
 			"City": "Malmö",
 			"Address": "",
@@ -216,8 +509,100 @@
 			"Level": "",
 			"CommunityUrl": "",
 			"coords": {
-				"lat": "",
-				"long": ""
+				"lat": "55.5806128358",
+				"long": "13.0176830292"
+			}
+		},
+		"Badbryggan": {
+			"City": "Malmö",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "55.6165411887",
+				"long": "12.9758541008"
+			}
+		},
+		"Stapelbäddsparken": {
+			"City": "Malmö",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "55.6132584762",
+				"long": "12.9843784179"
+			}
+		},
+		"Sibbarp Skatepark": {
+			"City": "Malmö",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "55.5747420253",
+				"long": "12.9091286659"
+			}
+		},
+		"Kroksbäck skatepark": {
+			"City": "Malmö",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "55.571442787205",
+				"long": "12.970308021118"
+			}
+		},
+		"Oxie Skatepark": {
+			"City": "Malmö",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "55.5412106488",
+				"long": "13.1026875973"
+			}
+
+		},
+		"Bara Skatepark": {
+			"City": "Malmö",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "55.5805823534",
+				"long": "13.173221218"
+			}
+
+		},
+		"Kristianstad streetplaza": {
+			"City": "Kristianstad",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "56.0309522491",
+				"long": "14.1593814667"
+			}
+
+		},
+	
+		"Gasverket": {
+			"City": "Trelleborg",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "55.3773670903",
+				"long": "13.1592607498"
 			}
 
 		},
@@ -226,3 +611,4 @@
 		}
 	}
 }
+
