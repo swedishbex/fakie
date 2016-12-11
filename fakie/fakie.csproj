@@ -38,6 +38,9 @@
     <EmbeddedResource Include="CityIndex.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="ParkIndex.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -63,6 +66,9 @@
       <DependentUpon>CityIndex.xaml</DependentUpon>
     </Compile>
     <Compile Include="firebaseAPI.cs" />
+    <Compile Include="ParkIndex.xaml.cs">
+      <DependentUpon>ParkIndex.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">

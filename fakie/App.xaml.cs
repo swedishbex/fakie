@@ -11,9 +11,9 @@ namespace fakie
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new CityLetters());
-			//MainPage = new NavigationPage(new fakiePage());
-			                              
+			// MainPage = new NavigationPage(new CityLetters());
+			MainPage = new NavigationPage(new fakiePage());
+			//MainPage = new fakiePage();
 		}
 
 		protected override void OnStart()

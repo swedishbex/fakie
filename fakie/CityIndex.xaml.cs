@@ -37,7 +37,7 @@ namespace fakie
 				{
 					if (city.ToString().ToLower().StartsWith(charKey.ToLower(), StringComparison.Ordinal))
 					{
-						cities.Add(city.ToString());
+						cities.Add(city.ToString().ToUpper());
 					}
 				}
 
@@ -47,6 +47,12 @@ namespace fakie
 			var culture = new CultureInfo("sv-SE");
 			// Use culture in StringComparer.Create. But StringComparer.Create does not exists? Why?
 			CityList.ItemsSource = cities.OrderBy(i=>i, StringComparer.CurrentCulture);
+		}
+
+		void goParkIndex(object sender, EventArgs e)
+		{
+			var cityName = ((Button)sender).Text;
+			Navigation.PushAsync(new ParkIndex(cityName));
 		}
 
 	}

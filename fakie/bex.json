@@ -41,7 +41,8 @@
                 "6": "Alingsås",
 				"7": "Kungälv",
 				"8": "Vänersborg",
-                "9": "Lerum"
+                "9": "Lerum",
+				"10": "Limmared"
 			}
 		},
         "Västmanland": {
@@ -155,7 +156,7 @@
                 "9": "Boo"
 			}
 		},
-		"Skåne": {
+		"Skåne": { PARKS DONE 
 			"Cities": {
 				"0": "Malmö",
                 "1": "Helsingborg",
@@ -189,7 +190,7 @@
                 "9": "Haparanda"
 			}
 		},
-		"Kronoberg": {
+		"Kronoberg": { PARKS DONE
 			"Cities": {
 				"0": "Växjö",
 				"1": "Ljungby",
@@ -209,7 +210,8 @@
                 "6": "Hultsfred",
 				"7": "Färjestaden",
 				"8": "Emmaboda",
-                "9": "Mönsterås"
+                "9": "Mönsterås",
+				"10": "Böda"
 			}
 		},
 		"Jönköping": {
@@ -235,13 +237,13 @@
                 "9": "Hammarstrand"
 			}
 		},
-		"Halland": {
+		"Halland": { DONE PARKS
 			"Cities": {
 				"0": "Halmstad",
 				"1": "Varberg",
                 "2": "Falkenberg",
 				"3": "Kungsbacka",
-				"4": "Onsala"
+				"4": "Laholm"
 			}
 		},
 		"Gävleborg": {
@@ -253,7 +255,7 @@
 				"4": "Söderhamn"
 			}
 		},
-		"Gotland": {
+		"Gotland": { PARKS DONE
 			"Cities": {
 				"0": "Visby",
 				"1": "Hemse",
@@ -276,7 +278,7 @@
                 "9": "Smedjebacken"
 			}
 		},
-		"Blekinge": {
+		"Blekinge": { PARKS DONE
 			"Cities": {
 				"0": "Karlskrona",
 				"1": "Ronneby",
@@ -286,100 +288,152 @@
 			}
 		}
 	},
-	"cities": {
-		"Malmö": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Bryggeriet",
-				"1": "Badbryggan",
-                "2": "Stapelbäddsparken",
-				"3": "Sibbarp Skatepark",
-				"4": "Kroksbäck skatepark",
-				"5": "Oxie Skatepark",
-                "6": "Bara Skatepark"
-			}
-		},
-		"Örkelljunga": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Örkelljunga Skatepark"
-			}
-		},
-		"Ängelholm": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Ängelholm Skatepark"
-			}
-		},
-		"Höganäs": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Kullask8en Skatepark"
-			}
-		},
-		"Bjuv": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Bjuv Skatepark"
-			}
-		},
-		"Helsingborg": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Jutan"
-			}
-		},
-		"Landskrona": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Lagunen Skatepark"
-			}
-		},
-		"Kävlinge": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Kävlinge Skatepark"
-			}
-		},
-		"Höör": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Höör Skatepark"
-			}
-		},
-		"Stehag": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Tors Skatepark"
-			}
-		},
-		"Lund": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Östra Torn Skateboardhall",
-				"1": "Söderlyckan Skatepark"
-			}
-		},
-		"Kristianstad": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Kristianstad Streetplaza"
+
+	"parks": {
+
+		"xxx Skatepark": {
+			"City": "xxx",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "xxx",
+				"long": "xxx"
 			}
 		},	
-		"Trelleborg": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Gasverket"
+		"Borås Skatehall": {
+			"City": "Borås",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "xxx",
+				"long": "xxx"
 			}
 		},
-		"Göteborg": {
-			"Region": "Västra götalands län"
+		"Limmared Skatepark": {
+			"City": "Limmared",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "57.5360945",
+				"long": "13.3535659"
+			}
 		},
-		"Halmstad": {
-			"Region": "Halland"
-		}
-	},
-	"parks": {
+		"Slite Skatepark": {
+			"City": "Slite",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "57.7050319601",
+				"long": "18.8056918451"
+			}
+		},
+		"Visby Skatepark": {
+			"City": "Visby",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "57.6192779",
+				"long": "18.3025601"
+			}
+		},
+		"Hultsfred Skatehall": {
+			"City": "Hultsfred",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "57.4878462",
+				"long": "15.8339764"
+			}
+		},
+		"Spetsamossen Skatepark": {
+			"City": "Växjö",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "56.8850255342",
+				"long": "14.8011611301"
+			}
+		},
+		"Böda Sand Skatepark": {
+			"City": "Böda",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "57.2743789",
+				"long": "17.0515014"
+			}
+		},
+		"Kungsbacka Skatepark": {
+			"City": "Kungsbacka",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "",
+				"long": ""
+			}
+		},
+		"Falkenberg Skatepark": {
+			"City": "Falkenberg",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "56.904186206929",
+				"long": "12.502727329205"
+			}
+		},
+		"Halmstad Arena Skatepark": {
+			"City": "Halmstad",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "56.6736520954",
+				"long": "12.8850859878"
+			}
+		},
+		"Laholm Skatepark": {
+			"City": "Laholm",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "56.50165240332",
+				"long": "13.038352106824"
+			}
+		},
+		"Karlskrona Skatepark": {
+			"City": "Karlskrona",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "56.1663138829",
+				"long": "15.5935840649"
+			}
+		},
               
 		"Örkelljunga Skatepark": {
 			"City": "Örkelljunga",
@@ -609,6 +663,102 @@
 		"Actionpark": {
 			"City": "Göteborg"
 		}
-	}
-}
+	},
 
+
+
+
+"cities": {
+		"Malmö": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Bryggeriet",
+				"1": "Badbryggan",
+                "2": "Stapelbäddsparken",
+				"3": "Sibbarp Skatepark",
+				"4": "Kroksbäck skatepark",
+				"5": "Oxie Skatepark",
+                "6": "Bara Skatepark"
+			}
+		},
+		"Örkelljunga": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Örkelljunga Skatepark"
+			}
+		},
+		"Ängelholm": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Ängelholm Skatepark"
+			}
+		},
+		"Höganäs": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Kullask8en Skatepark"
+			}
+		},
+		"Bjuv": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Bjuv Skatepark"
+			}
+		},
+		"Helsingborg": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Jutan"
+			}
+		},
+		"Landskrona": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Lagunen Skatepark"
+			}
+		},
+		"Kävlinge": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Kävlinge Skatepark"
+			}
+		},
+		"Höör": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Höör Skatepark"
+			}
+		},
+		"Stehag": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Tors Skatepark"
+			}
+		},
+		"Lund": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Östra Torn Skateboardhall",
+				"1": "Söderlyckan Skatepark"
+			}
+		},
+		"Kristianstad": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Kristianstad Streetplaza"
+			}
+		},	
+		"Trelleborg": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Gasverket"
+			}
+		},
+		"Göteborg": {
+			"Region": "Västra götalands län"
+		},
+		"Halmstad": {
+			"Region": "Halland"
+		}
+	},
+}
