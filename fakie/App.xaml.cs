@@ -1,4 +1,6 @@
-﻿using Xamarin.Forms;
+﻿using System.Collections.Generic;
+using Newtonsoft.Json.Linq;
+using Xamarin.Forms;
 
 
 namespace fakie
@@ -9,7 +11,7 @@ namespace fakie
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new CityIndex());
+			MainPage = new NavigationPage(new CityLetters());
 			//MainPage = new NavigationPage(new fakiePage());
 			                              
 		}
@@ -28,5 +30,6 @@ namespace fakie
 		{
 			// Handle when your app resumes
 		}
+
 	}
 }

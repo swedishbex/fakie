@@ -1,4 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:fakie" x:Class="fakie.fakiePage">
-	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+ 
+	<AbsoluteLayout>
+
+		
+
+	<RelativeLayout BackgroundColor="#FFCD00" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+
+			<Image Source="Icon1.png" HeightRequest= "100"
+				RelativeLayout.XConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=-50}"
+				RelativeLayout.YConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Y,
+                             Factor=1.0,
+                             Constant=75}"
+				/> 
+			
+			<SearchBar  Placeholder="Sök park, stad, län"  WidthRequest="250" HeightRequest="35" 
+				RelativeLayout.XConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=-125}"
+				RelativeLayout.YConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Y,
+                             Factor=1.0,
+                             Constant=225}"
+				/>
+			<Button Text="PARK" Clicked="goPark" TextColor="White" Font="Open Sans" FontAttributes="Bold" BackgroundColor="Black" BorderRadius="2" WidthRequest="250" HeightRequest="35" 
+				RelativeLayout.XConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=-125}"
+				RelativeLayout.YConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Y,
+                             Factor=1.0,
+                             Constant=270}"
+				/>
+			<Button Text="STAD"  Clicked="goCity" TextColor="White" Font="Open Sans" FontAttributes="Bold" BackgroundColor="Black" BorderRadius="2" WidthRequest="250" HeightRequest="35" 
+				RelativeLayout.XConstraint = 
+      				"{ConstraintExpression Type=RelativeToParent, 
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=-125}"
+				RelativeLayout.YConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Y,
+                             Factor=1.0,
+                             Constant=315}"
+				/>
+			<Button Text="LÄN"  Clicked="goLan" TextColor="White" Font="Open Sans" FontAttributes="Bold" BackgroundColor="Black" BorderRadius="2" WidthRequest="250" HeightRequest="35" 
+				RelativeLayout.XConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=-125}"
+				RelativeLayout.YConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Y,
+                             Factor=1.0,
+                             Constant=360}"
+				/>
+			
+
+				
+
+
+			<Button Text="Kontakta oss"  TextColor="Black" Font="Open Sans" FontSize="12" BorderRadius="2" WidthRequest="250" HeightRequest="25" 
+				RelativeLayout.XConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=-125}"
+				RelativeLayout.YConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=1.0,
+                             Constant=-30}"
+				/>
+		</RelativeLayout>
+
+
+		
+	</AbsoluteLayout>
+
+	
+
+
 </ContentPage>
