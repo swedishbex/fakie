@@ -7,7 +7,7 @@
 
 		<RelativeLayout BackgroundColor="#FFCD00" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
 
-				<Label Text="M" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32"
+				<Label x:Name="lblLetter" Text="M" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32"
 				RelativeLayout.XConstraint =
       				"{ConstraintExpression Type=RelativeToParent,
                              Property=Width,
@@ -35,7 +35,7 @@
 				
 			<ListView.ItemTemplate>
 				<DataTemplate>
-					<TextCell Text="{Binding CityName}"></TextCell>
+					<TextCell Text="{Binding}"></TextCell>
 				</DataTemplate>
 			</ListView.ItemTemplate>	
 

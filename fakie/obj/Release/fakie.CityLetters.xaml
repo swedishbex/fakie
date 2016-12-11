@@ -1,403 +1,75 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fakie.CityLetters">
 	
-<ScrollView> 
+		<StackLayout BackgroundColor="#FFCD00">
+			<Label Text="STÄDER" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32" HorizontalOptions="CenterAndExpand" Margin="0,50,0,0"/>
 
-	
-
-		<RelativeLayout BackgroundColor="#FFCD00" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
-
-			<Label Text="STÄDER" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32"
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0,
-                             Constant=100}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=75}"
-				/> 
-
-
-			
-				<Button  BorderRadius="2" BackgroundColor="Black" WidthRequest="240" HeightRequest="430" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-120}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=175}"
-					/>
-				<Button Text="A"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-120}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=175}"
-				/>
-				<Button Text="B"  TextColor="White"  Font="OpenSans" FontSize="32" FontAttributes="Bold" WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=175}"
-				/>
-				<Button Text="C"  TextColor="White" Font="OpenSans"  FontSize="32" FontAttributes="Bold" WidthRequest="60" HeightRequest="60"   
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=0}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=175}"
-				/>
-				<Button Text="D"  TextColor="White"  Font="OpenSans" FontSize="32" FontAttributes="Bold" WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=175}"
-				/>
-
-				<Button Text="E"  TextColor="White"  Font="Open Sans" FontSize="32" FontAttributes="Bold" WidthRequest="60" HeightRequest="60"  
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-120}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=230}"
-				/>
-				<Button Text="F"  TextColor="White"  Font="Open Sans" FontSize="32" FontAttributes="Bold" WidthRequest="60" HeightRequest="60"  
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=230}"
-				/>
-				<Button Text="G"  TextColor="White"  Font="Open Sans" FontSize="32" FontAttributes="Bold" WidthRequest="60" HeightRequest="60"  
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-0}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=230}"
-				/>
-				<Button Text="H"  TextColor="White"  Font="Open Sans" FontSize="32" FontAttributes="Bold" WidthRequest="60" HeightRequest="60"  
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=230}"
-				/>
-
-
-
-				<Button Text="I"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-120}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=290}"
-				/>
-				<Button Text="J"   TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=290}"
-				/>
-				<Button Text="K"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=0}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=290}"
-				/>
-				<Button Text="L"   TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=290}"
-				/>
-
-
-				
-
-				<Button Text="M"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-120}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=350}"
-				/>
-				<Button Text="N"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=350}"
-				/>
-				<Button Text="O"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=0}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=350}"
-				/>
-				<Button Text="P"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=350}"
-				/>
-
-
-				
-
-				<Button Text="Q"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60"  
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-120}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=410}"
-				/>
-				<Button Text="R"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60"  
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=410}"
-				/>
-				<Button Text="S"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60"  
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=0}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=410}"	
-				/>
-		
-				<Button Text="T"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60"  
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=410}"
-				/>
-
-
-				
-				<Button Text="U"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-120}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=470}"
-				/>
-				<Button Text="V"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=470}"
-				/>
-				<Button Text="X"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=0}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=470}"
-				/>
-				<Button Text="Y"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=470}"
-				/>
-
-					
-				<Button Text="Z"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-120}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=530}"
-				/>
-				<Button Text="Å" TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=530}"
-			
-				/>
-				<Button Text="Ä"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=0}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=530}"
-				/>
-				<Button Text="Ö"  TextColor="White" Font="Open Sans" FontSize="32" FontAttributes="Bold"  WidthRequest="60" HeightRequest="60" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=60}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=530}"
-				/>
-
-			
-				
-
-				
-			</RelativeLayout>
-
-		
-
-	</ScrollView>
+			<ListView x:Name="ButtonList" Margin="50, 50, 50, 50" SeparatorVisibility="None" BackgroundColor="Transparent" RowHeight="60">
+				<ListView.ItemTemplate>
+            		<DataTemplate>
+                		<ViewCell>
+							<ViewCell.View>
+                            	<Grid ColumnSpacing="0">
+	                                <Grid.ColumnDefinitions>
+	                                    <ColumnDefinition Width="*" />
+	                                    <ColumnDefinition Width="*" />
+										<ColumnDefinition Width="*" />
+										<ColumnDefinition Width="*" />
+	                                </Grid.ColumnDefinitions>
+									<Button 
+										Text="{Binding ButtonText1}"
+										TextColor="White" 
+										Font="Open Sans"
+										FontSize="32"
+										FontAttributes="Bold"
+										Grid.Column="0"
+										Clicked="goCity"
+										BackgroundColor="Black"
+										HorizontalOptions="FillAndExpand"
+										BorderRadius="0"
+									/>
+									<Button 
+										Text="{Binding ButtonText2}"
+										TextColor="White" 
+										Font="Open Sans"
+										FontSize="32"
+										FontAttributes="Bold"
+										Grid.Column="1"
+										Clicked="goCity"
+										BackgroundColor="Black"
+										HorizontalOptions="FillAndExpand"
+										BorderRadius="0"
+									/>
+									<Button 
+										Text="{Binding ButtonText3}"
+										TextColor="White" 
+										Font="Open Sans"
+										FontSize="32"
+										FontAttributes="Bold"
+										Grid.Column="2"
+										Clicked="goCity"
+										BackgroundColor="Black"
+										HorizontalOptions="FillAndExpand"
+										BorderRadius="0"
+									/>
+									<Button 
+										Text="{Binding ButtonText4}"
+										TextColor="White" 
+										Font="Open Sans"
+										FontSize="32"
+										FontAttributes="Bold"
+										Grid.Column="3"
+										Clicked="goCity"
+										BackgroundColor="Black"
+										HorizontalOptions="FillAndExpand"
+										BorderRadius="0"
+									/>
+								</Grid>
+							</ViewCell.View>
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</StackLayout>
 
 </ContentPage>

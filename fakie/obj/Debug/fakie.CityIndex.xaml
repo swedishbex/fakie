@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fakie.CityIndex">
+
+
+	
+	<AbsoluteLayout>
+
+		<RelativeLayout BackgroundColor="#FFCD00" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+
+				<Label Text="M" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32"
+				RelativeLayout.XConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=-30}"
+				RelativeLayout.YConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Y,
+                             Factor=1.0,
+                             Constant=75}"
+				/> 
+
+			<ListView x:Name="CityList" 
+					WidthRequest="250" 
+					RelativeLayout.XConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=-125}"
+				RelativeLayout.YConstraint =
+      				"{ConstraintExpression Type=RelativeToParent,
+                             Property=Y,
+                             Factor=1.0,
+                             Constant=225}"> 
+				
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<TextCell Text="{Binding CityName}"></TextCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>	
+
+
+		
+
+				</ListView>
+
+			
+			</RelativeLayout>
+		
+		
+	</AbsoluteLayout>
+
+</ContentPage>

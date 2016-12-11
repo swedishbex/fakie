@@ -1,0 +1,228 @@
+{
+	"regions": {
+		
+		"Östergötland": {
+			"Cities": {
+				"0": "Linköping",
+				"1": "Norrköping",
+                "2": "Motala",
+				"3": "Finspång",
+				"4": "Mjölby"
+			}
+        },
+		"Örebro": {
+			"Cities": {
+				"0": "xxx",
+				"1": "xxx",
+                "2": "xxx",
+				"3": "xxx",
+				"4": "xxx"
+			}
+		},
+		"Västra götalands län": {
+			"Cities": {
+				"0": "Göteborg",
+                "1": "Borås",
+                "2": "Trollhättan",
+				"3": "Skövde",
+				"4": "Uddevalla",
+                "5": "Lidköping",
+                "6": "Alingsås",
+				"7": "Kungälv",
+				"8": "Vänersborg",
+                "9": "Lerum"
+			}
+		},
+        "Västmanland": {
+			"Cities": {
+				"0": "xxx",
+				"1": "xxx",
+                "2": "xxx",
+				"3": "xxx",
+				"4": "xxx"
+			}
+		},
+		"Västernorrland": {
+			"Cities": {
+				"0": "xxx",
+				"1": "xxx",
+                "2": "xxx",
+				"3": "xxx",
+				"4": "xxx"
+			}
+		},
+		"Västerbotten": {
+			"Cities": {
+				"0": "xxx",
+				"1": "xxx",
+                "2": "xxx",
+				"3": "xxx",
+				"4": "xxx"
+			}
+		},
+		"Värmland": {
+			"Cities": {
+				"0": "xxx",
+				"1": "xxx",
+                "2": "xxx",
+				"3": "xxx",
+				"4": "xxx"
+			}
+		},
+		"Uppsala": {
+			"Cities": {
+				"0": "xxx",
+				"1": "xxx",
+                "2": "xxx",
+				"3": "xxx",
+				"4": "xxx"
+			}
+		},
+		"Södermanland": {
+			"Cities": {
+				"0": "xxx",
+				"1": "xxx",
+                "2": "xxx",
+				"3": "xxx",
+				"4": "xxx"
+			}
+		},
+		"Stockholm": {
+			"Cities": {
+				"0": "xxx",
+				"1": "xxx"
+			}
+		},
+		"Skåne": {
+			"Cities": {
+				"0": "Malmö",
+                "1": "Helsingborg",
+                "2": "Lund",
+				"3": "Kristianstad",
+				"4": "Landskrona",
+                "5": "Trelleborg",
+                "6": "Ängelholm",
+				"7": "Hässleholm",
+				"8": "Ystad",
+                "9": "Eslöv"
+			}
+		},
+		"Norrbotten": {
+			"Cities": {
+				"0": "xxx",
+				"1": "xxx"
+			}
+		},
+		"Kronoberg": {
+			"Cities": {
+				"0": "Växjö",
+				"1": "Ljungby",
+                "2": "Älmhult",
+				"3": "Alvesta",
+				"4": "Markaryd"
+			}
+		},
+  		"Kalmar": {
+			"Cities": {
+				"0": "Kalmar",
+                "1": "Västervik",
+                "2": "Oskarshamn",
+				"3": "Nybro",
+				"4": "Vimmerby",
+                "5": "Lindsdal",
+                "6": "Hultsfred",
+				"7": "Färjestaden",
+				"8": "Emmaboda",
+                "9": "Mönsterås"
+			}
+		},
+		"Jönköping": {
+			"Cities": {
+				"0": "Jönköping",
+				"1": "Värnamo",
+                "2": "Nässjö",
+				"3": "Tranås",
+				"4": "Vetlanda"
+			}
+		},
+		"Jämtland": {
+			"Cities": {
+				"0": "xxx",
+				"1": "xxx"
+			}
+		},
+		"Halland": {
+			"Cities": {
+				"0": "Halmstad",
+				"1": "Varberg",
+                "2": "Falkenberg",
+				"3": "Kungsbacka",
+				"4": "Onsala"
+			}
+		},
+		"Gävleborg": {
+			"Cities": {
+				"0": "xxx",
+				"1": "xxx"
+			}
+		},
+		"Gotland": {
+			"Cities": {
+				"0": "Visby",
+				"1": "Hemse",
+                "2": "Slite",
+				"3": "Klintehamn",
+				"4": "Vibble"			
+				}
+		},
+		"Dalarna": {
+			"Cities": {
+				"0": "xxx",
+				"1": "xxx"
+			}
+		},
+		"Blekinge": {
+			"Cities": {
+				"0": "Karlskrona",
+				"1": "Ronneby",
+				"2": "Karlshamn",
+				"3": "Sölvesborg",
+				"4": "Olofström"
+			}
+		}
+	},
+	"cities": {
+		"Malmö": {
+			"Region": "Skåne",
+			"Parks": {
+				"0": "Bryggeriet"
+			}
+		},
+		"Lund": {
+			"Region": "Skåne"
+		},
+		"Göteborg": {
+			"Region": "Västra götalands län"
+		},
+		"Halmstad": {
+			"Region": "Halland"
+		}
+	},
+	"parks": {
+		"Bryggeriet": {
+			"City": "Malmö",
+			"Address": "",
+			"ImageUrl": "",
+			"Level": "",
+			"CommunityUrl": "",
+			"coords": {
+				"lat": "",
+				"long": ""
+			}
+
+		},
+		"Actionpark": {
+			"City": "Göteborg"
+		}
+	}
+}

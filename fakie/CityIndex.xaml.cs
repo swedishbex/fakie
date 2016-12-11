@@ -1,24 +1,53 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
+using Newtonsoft.Json.Linq;
 using Xamarin.Forms;
+using System.Globalization;
 
 namespace fakie
 {
-	public class City
-	{
-		public string CityName { get; set; }
-	}
 	public partial class CityIndex : ContentPage
 	{
-		ObservableCollection<City> cities = new ObservableCollection<City>();
-		public CityIndex()
+		ObservableCollection<string> cities = new ObservableCollection<string>();
+		static JObject regionsData = null;
+
+		private string charKey;
+		public CityIndex(string sortChar)
 		{
 			InitializeComponent();
-			cities.Add(new City { CityName = "Malmö" });
-			cities.Add(new City { CityName = "Malugn" });
-			CityList.ItemsSource = cities;
-
+			charKey = sortChar;
+			lblLetter.Text = sortChar;
+			loadData();
 		}
+
+		async void loadData()
+		{
+			if (regionsData == null)
+			{
+				regionsData = await firebaseAPI.doGet("regions", "", "");
+			}
+
+			foreach (var region in regionsData)
+			{
+				var lclCities = (JObject) region.Value;
+
+				foreach (var city in lclCities["Cities"])
+				{
+					if (city.ToString().ToLower().StartsWith(charKey.ToLower(), StringComparison.Ordinal))
+					{
+						cities.Add(city.ToString());
+					}
+				}
+
+
+			}
+
+			var culture = new CultureInfo("sv-SE");
+			// Use culture in StringComparer.Create. But StringComparer.Create does not exists? Why?
+			CityList.ItemsSource = cities.OrderBy(i=>i, StringComparer.CurrentCulture);
+		}
+
 	}
 }

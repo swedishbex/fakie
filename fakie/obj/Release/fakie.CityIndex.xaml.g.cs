@@ -17,11 +17,15 @@ namespace fakie {
     public partial class CityIndex : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label lblLetter;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ListView CityList;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(CityIndex));
+            lblLetter = this.FindByName <global::Xamarin.Forms.Label>("lblLetter");
             CityList = this.FindByName <global::Xamarin.Forms.ListView>("CityList");
         }
     }
