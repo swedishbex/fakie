@@ -11,6 +11,7 @@ namespace fakie
 		public fakiePage()
 		{
 			InitializeComponent();
+			NavigationPage.SetHasNavigationBar(this, false);
 		}
 
 		void goPark(object sender, EventArgs e)

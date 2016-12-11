@@ -46,3 +46,5 @@
 /Users/bexmap/Projects/fakie/fakie/bin/Release/System.Net.Http.Primitives.dll
 /Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.ParkIndex.xaml
 /Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.ParkIndex.xaml.g.cs
+/Users/mikael/Git/fakie/fakie/obj/Release/fakie.ParkIndex.xaml
+/Users/mikael/Git/fakie/fakie/obj/Release/fakie.ParkIndex.xaml.g.cs
