@@ -48,3 +48,15 @@
 /Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.ParkIndex.xaml.g.cs
 /Users/mikael/Git/fakie/fakie/obj/Release/fakie.ParkIndex.xaml
 /Users/mikael/Git/fakie/fakie/obj/Release/fakie.ParkIndex.xaml.g.cs
+/Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.ParkPage.xaml
+/Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.ParkPage.xaml.g.cs
+/Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.ParkName.xaml
+/Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.ParkName.xaml.g.cs
+/Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.CItyParkIndex.xaml
+/Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.Citysökväg.CityLetters.xaml
+/Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.Citysökväg.CityIndex.xaml
+/Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.CItyParkIndex.xaml.g.cs
+/Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.Citysökväg.CityLetters.xaml.g.cs
+/Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.Citysökväg.CityIndex.xaml.g.cs
+/Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.CityParkIndex.xaml
+/Users/bexmap/Projects/fakie/fakie/obj/Release/fakie.CityParkIndex.xaml.g.cs

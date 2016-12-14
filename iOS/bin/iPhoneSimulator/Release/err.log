@@ -1,5 +1,55 @@
 dyld: warning: could not load inserted library '/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/monotouch-fixes.dylib' because no suitable image found.  Did find:
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/monotouch-fixes.dylib: required code signature missing for '/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/monotouch-fixes.dylib'
 
-objc[74430]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x11c179b60) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/AVConference.framework/AVConference (0x11c0b43c8). One of the two will be used. Which one is undefined.
-objc[74430]: Class PLBuildVersion is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x118b10998) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x118935d38). One of the two will be used. Which one is undefined.
+objc[5279]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x11ee1cb60) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/AVConference.framework/AVConference (0x11ed573c8). One of the two will be used. Which one is undefined.
+objc[5279]: Class PLBuildVersion is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x11b7b3998) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x11b5d8d38). One of the two will be used. Which one is undefined.
+2016-12-13 16:25:09.638 fakie.iOS[5279:522543] 
+Unhandled Exception:
+System.InvalidCastException: Specified cast is not valid.
+  at fakie.ParkIndex+<loadData>c__async0.MoveNext () [0x000b5] in <630649b1a1bc47efaf5efff827230238>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <1b8eccd9010447b8b48086ab0847b072>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <1b8eccd9010447b8b48086ab0847b072>:0 
+  at fakie.iOS.Application.Main (System.String[] args) [0x00000] in <38b9dab544014810b2736f857de5fab9>:0 
+2016-12-13 16:25:09.639 fakie.iOS[5279:522543] Unhandled managed exception:
+Specified cast is not valid. (System.InvalidCastException)
+  at fakie.ParkIndex+<loadData>c__async0.MoveNext () [0x000b5] in <630649b1a1bc47efaf5efff827230238>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <1b8eccd9010447b8b48086ab0847b072>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <1b8eccd9010447b8b48086ab0847b072>:0 
+  at fakie.iOS.Application.Main (System.String[] args) [0x00000] in <38b9dab544014810b2736f857de5fab9>:0 
+2016-12-13 16:25:09.640 fakie.iOS[5279:522543] critical: Stacktrace:
+
+2016-12-13 16:25:09.640 fakie.iOS[5279:522543] critical: 
+Native stacktrace:
+
+2016-12-13 16:25:09.642 fakie.iOS[5279:522543] critical: 	0   fakie.iOS                           0x000000010878db6d mono_handle_native_sigsegv + 253
+2016-12-13 16:25:09.643 fakie.iOS[5279:522543] critical: 	1   libsystem_platform.dylib            0x0000000114f04bba _sigtramp + 26
+2016-12-13 16:25:09.643 fakie.iOS[5279:522543] critical: 	2   ???                                 0x0000000108cfa99b 0x0 + 4442794395
+2016-12-13 16:25:09.643 fakie.iOS[5279:522543] critical: 	3   libsystem_c.dylib                   0x0000000114c5bfd7 abort + 129
+2016-12-13 16:25:09.643 fakie.iOS[5279:522543] critical: 	4   fakie.iOS                           0x0000000108909b42 xamarin_unhandled_exception_handler + 34
+2016-12-13 16:25:09.643 fakie.iOS[5279:522543] critical: 	5   fakie.iOS                           0x000000010878e41c mono_invoke_unhandled_exception_hook + 92
+2016-12-13 16:25:09.644 fakie.iOS[5279:522543] critical: 	6   fakie.iOS                           0x000000010878d3bf mono_handle_exception_internal + 5119
+2016-12-13 16:25:09.644 fakie.iOS[5279:522543] critical: 	7   fakie.iOS                           0x000000010878bfb8 mono_handle_exception + 24
+2016-12-13 16:25:09.644 fakie.iOS[5279:522543] critical: 	8   fakie.iOS                           0x0000000108709f8f mono_amd64_throw_exception + 143
+2016-12-13 16:25:09.644 fakie.iOS[5279:522543] critical: 	9   ???                                 0x0000000126cf69e7 0x0 + 4946094567
+2016-12-13 16:25:09.645 fakie.iOS[5279:522543] critical: 	10  fakie.iOS                           0x00000001089160c7 _ZL31native_to_managed_trampoline_11P11objc_objectP13objc_selectorPP11_MonoMethodPKcS7_ + 295
+2016-12-13 16:25:09.645 fakie.iOS[5279:522543] critical: 	11  fakie.iOS                           0x000000010892236d -[__MonoMac_NSAsyncActionDispatcher xamarinApplySelector] + 61
+2016-12-13 16:25:09.645 fakie.iOS[5279:522543] critical: 	12  Foundation                          0x000000010c2dd6be __NSThreadPerformPerform + 326
+2016-12-13 16:25:09.645 fakie.iOS[5279:522543] critical: 	13  CoreFoundation                      0x0000000113982311 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+2016-12-13 16:25:09.645 fakie.iOS[5279:522543] critical: 	14  CoreFoundation                      0x000000011396759c __CFRunLoopDoSources0 + 556
+2016-12-13 16:25:09.646 fakie.iOS[5279:522543] critical: 	15  CoreFoundation                      0x0000000113966a86 __CFRunLoopRun + 918
+2016-12-13 16:25:09.646 fakie.iOS[5279:522543] critical: 	16  CoreFoundation                      0x0000000113966494 CFRunLoopRunSpecific + 420
+2016-12-13 16:25:09.646 fakie.iOS[5279:522543] critical: 	17  GraphicsServices                    0x00000001145e1a6f GSEventRunModal + 161
+2016-12-13 16:25:09.646 fakie.iOS[5279:522543] critical: 	18  UIKit                               0x00000001090e5964 UIApplicationMain + 159
+2016-12-13 16:25:09.646 fakie.iOS[5279:522543] critical: 	19  ???                                 0x00000001292358e2 0x0 + 4985149666
+2016-12-13 16:25:09.647 fakie.iOS[5279:522543] critical: 	20  ???                                 0x0000000129235770 0x0 + 4985149296
+2016-12-13 16:25:09.647 fakie.iOS[5279:522543] critical: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+

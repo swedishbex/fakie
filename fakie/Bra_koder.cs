@@ -41,6 +41,8 @@ WriteLiteral(@"		productItem theClickedProduct = (productItem)eventInfo.Selected
 
 				// Öppna sidan
 				Navigation.PushAsync(pinfo);
+
+ 
 ");
 
 }

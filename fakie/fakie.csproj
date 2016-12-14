@@ -32,13 +32,19 @@
     <EmbeddedResource Include="LanPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="CityLetters.xaml">
+    <EmbeddedResource Include="ParkIndex.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkName.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CityParkIndex.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="CityIndex.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="ParkIndex.xaml">
+    <EmbeddedResource Include="CityLetters.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -56,18 +62,22 @@
     <Compile Include="ParkLetters.xaml.cs">
       <DependentUpon>ParkLetters.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CityLetters.xaml.cs">
-      <DependentUpon>CityLetters.xaml</DependentUpon>
-    </Compile>
     <Compile Include="LanPage.xaml.cs">
       <DependentUpon>LanPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="CityIndex.xaml.cs">
-      <DependentUpon>CityIndex.xaml</DependentUpon>
     </Compile>
     <Compile Include="firebaseAPI.cs" />
     <Compile Include="ParkIndex.xaml.cs">
       <DependentUpon>ParkIndex.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParkName.xaml.cs">
+      <DependentUpon>ParkName.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CItyParkIndex.xaml.cs">
+      <DependentUpon>CityParkIndex.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CityIndex.xaml.cs" />
+    <Compile Include="CityLetters.xaml.cs">
+      <DependentUpon>CityLetters.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

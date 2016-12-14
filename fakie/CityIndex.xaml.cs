@@ -49,11 +49,13 @@ namespace fakie
 			CityList.ItemsSource = cities.OrderBy(i=>i, StringComparer.CurrentCulture);
 		}
 
-		void goParkIndex(object sender, EventArgs e)
+		void goCityParkIndex(object sender, EventArgs e)
 		{
 			var cityName = ((Button)sender).Text;
-			Navigation.PushAsync(new ParkIndex(cityName));
+			Navigation.PushAsync(new CityParkIndex(cityName));
 		}
 
 	}
 }
+
+

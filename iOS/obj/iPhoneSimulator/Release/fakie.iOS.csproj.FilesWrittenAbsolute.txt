@@ -34,3 +34,4 @@
 /Users/bexmap/Projects/fakie/iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Platform.iOS.dll
 /Users/bexmap/Projects/fakie/iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Xaml.dll
 /Users/bexmap/Projects/fakie/iOS/bin/iPhoneSimulator/Release/fakie.dll
+/Users/bexmap/Projects/fakie/iOS/bin/iPhoneSimulator/Release/Newtonsoft.Json.dll
