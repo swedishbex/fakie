@@ -33,13 +33,13 @@ namespace fakie
 			}
 
 			foreach (var park in parksData)
-
-				var parkname = (JObject) park.Key;
-
-
-			if (parkname.ToString().ToLower().StartsWith(charKey.ToLower(), StringComparison.Ordinal))
 			{
-				parks.Add(parkname.ToString().ToUpper());
+				var parkname = (JObject)park.Key;
+
+				if (parkname.ToString().ToLower().StartsWith(charKey.ToLower(), StringComparison.Ordinal))
+				{
+					parks.Add(parkname.ToString().ToUpper());
+				}
 			}
 
 			var culture = new CultureInfo("sv-SE");
@@ -50,7 +50,7 @@ namespace fakie
 		void goParkName(object sender, EventArgs e)
 		{
 			var parkDetails = ((Button)sender).Text;
-			Navigation.PushAsync(new ParkName(parkDetails));
+			Navigation.PushAsync(new ParkName());
 		}
 
 	}
