@@ -156,7 +156,7 @@
                 "9": "Boo"
 			}
 		},
-		"Skåne": { PARKS DONE 
+		"Skåne": { 
 			"Cities": {
 				"0": "Malmö",
                 "1": "Helsingborg",
@@ -190,7 +190,7 @@
                 "9": "Haparanda"
 			}
 		},
-		"Kronoberg": { PARKS DONE
+		"Kronoberg": { 
 			"Cities": {
 				"0": "Växjö",
 				"1": "Ljungby",
@@ -237,7 +237,7 @@
                 "9": "Hammarstrand"
 			}
 		},
-		"Halland": { DONE PARKS
+		"Halland": { 
 			"Cities": {
 				"0": "Halmstad",
 				"1": "Varberg",
@@ -255,7 +255,7 @@
 				"4": "Söderhamn"
 			}
 		},
-		"Gotland": { PARKS DONE
+		"Gotland": { 
 			"Cities": {
 				"0": "Visby",
 				"1": "Hemse",
@@ -278,7 +278,7 @@
                 "9": "Smedjebacken"
 			}
 		},
-		"Blekinge": { PARKS DONE
+		"Blekinge": { 
 			"Cities": {
 				"0": "Karlskrona",
 				"1": "Ronneby",
@@ -659,12 +659,51 @@
 				"long": "13.1592607498"
 			}
 
-		},
-		"Actionpark": {
-			"City": "Göteborg"
 		}
+		
 	},
 
+
+    "area": {
+		"Södra": {
+			"Län": {
+				"0": "Blekinge",
+				"1": "Gotland",
+                "2": "Halland",
+				"3": "Jönköping",
+				"4": "Kalmar",
+				"5": "Kronoberg",
+                "6": "Skåne",
+				"7": "Västragötaland",
+				"8": "Östergötland"
+
+			}
+        },
+        
+		"Mellan": {
+			"Län": {
+				"0": "Dalarna",
+				"1": "Stockholm",
+                "2": "Södermanland",
+				"3": "Uppsala",
+				"4": "Värmland",
+				"5": "Västermanland",
+                "6": "Örebro"
+				
+			}
+        },
+        
+		"Norra": {
+			"Län": {
+				"0": "Gävleborg",
+				"1": "Jämtland",
+                "2": "Norrbotten",
+				"3": "Västerbotten",
+				"4": "Västernorrland"
+			
+			}
+        }
+      },
 
 
 
@@ -753,12 +792,9 @@
 			"Parks": {
 				"0": "Gasverket"
 			}
-		},
-		"Göteborg": {
-			"Region": "Västra götalands län"
-		},
-		"Halmstad": {
-			"Region": "Halland"
 		}
-	},
+  }
 }
+			
+
+	
