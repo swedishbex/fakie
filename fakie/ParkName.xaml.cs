@@ -7,9 +7,10 @@ namespace fakie
 {
 	public partial class ParkName : ContentPage
 	{
-		/*public ParkName()
+		public ParkName(string parkName)
 		{
 			InitializeComponent();
-		}*/
+			lblParkName.Text = parkName;
+		}
 	}
 }

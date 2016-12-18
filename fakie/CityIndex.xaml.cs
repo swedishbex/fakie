@@ -52,7 +52,7 @@ namespace fakie
 		void goCityParkIndex(object sender, EventArgs e)
 		{
 			var cityName = ((Button)sender).Text;
-			Navigation.PushAsync(new CityParkIndex());
+			Navigation.PushAsync(new CityParkIndex(cityName));
 		}
 
 	}

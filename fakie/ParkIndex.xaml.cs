@@ -49,8 +49,8 @@ namespace fakie
 
 		void goParkName(object sender, EventArgs e)
 		{
-			var parkDetails = ((Button)sender).Text;
-			Navigation.PushAsync(new ParkName());
+			var parkName = ((Button)sender).Text;
+			Navigation.PushAsync(new ParkName(parkName));
 		}
 
 	}
