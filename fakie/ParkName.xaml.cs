@@ -57,6 +57,12 @@ namespace fakie
 			};
 			MyMap.Pins.Add(pin);
 
+			if (dataForPark["Address"] != null)
+			{
+				var address = dataForPark["Address"].ToString();
+				lblAddress.Text = address;
+			}
+
 		}
 	}
 }

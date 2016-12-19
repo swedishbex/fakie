@@ -9,8 +9,10 @@
 	
 	<StackLayout BackgroundColor="#FFCD00">
 
-		<Label x:Name="lblParkName" Text="" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32" HorizontalOptions="CenterAndExpand" Margin="0,50,0,0" /> 
+		<Label x:Name="lblParkName" Text="" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32" HorizontalOptions="CenterAndExpand" Margin="0,50,0,10" /> 
 
+		<Label x:Name="lblAddress" Text="Adress" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="16" HorizontalOptions="CenterAndExpand" Margin="10,0,10,10" /> 
+		
 		<maps:Map
             x:Name="MyMap"
             IsShowingUser="true"
