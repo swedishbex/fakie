@@ -316,7 +316,7 @@
 			"City": "xxx",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "xxx",
@@ -327,7 +327,7 @@
 			"City": "Borås",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "xxx",
@@ -338,7 +338,7 @@
 			"City": "Limmared",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "57.5360945",
@@ -349,7 +349,7 @@
 			"City": "Slite",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "57.7050319601",
@@ -360,7 +360,7 @@
 			"City": "Visby",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "57.6192779",
@@ -371,7 +371,7 @@
 			"City": "Hultsfred",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "57.4878462",
@@ -382,7 +382,7 @@
 			"City": "Växjö",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.8850255342",
@@ -393,7 +393,7 @@
 			"City": "Böda",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "57.2743789",
@@ -404,7 +404,7 @@
 			"City": "Kungsbacka",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "",
@@ -415,7 +415,7 @@
 			"City": "Falkenberg",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.904186206929",
@@ -426,7 +426,7 @@
 			"City": "Halmstad",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.6736520954",
@@ -437,7 +437,7 @@
 			"City": "Laholm",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.50165240332",
@@ -448,7 +448,7 @@
 			"City": "Karlskrona",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.1663138829",
@@ -460,7 +460,7 @@
 			"City": "Örkelljunga",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.2829322582",
@@ -471,7 +471,7 @@
 			"City": "Ängeholm",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.2459407348",
@@ -482,7 +482,7 @@
 			"City": "Höganäs",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.1940464282",
@@ -493,7 +493,7 @@
 			"City": "Bjuv",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.0857889",
@@ -504,7 +504,7 @@
 			"City": "Helsingborg",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.0315936",
@@ -515,7 +515,7 @@
 			"City": "Landskrona",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "55.8714906",
@@ -526,7 +526,7 @@
 			"City": "Kävlinge",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "55.7836506598",
@@ -537,7 +537,7 @@
 			"City": "Höör",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "55.9357320943",
@@ -548,7 +548,7 @@
 			"City": "Stehag",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "55.9027309542",
@@ -559,7 +559,7 @@
 			"City": "Lund",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "55.7097752",
@@ -568,21 +568,32 @@
 		},
 		"Söderlyckan Skatepark": {
 			"City": "Lund",
-			"Address": "",
+			"Address": "Stadsparken, 222 23 Lund",
 			"ImageUrl": "",
-			"Level": "",
-			"CommunityUrl": "",
+			"Venue": "Outdoor",
+			"CommunityUrl": "http://skatelund.se/",
 			"coords": {
 				"lat": "55.6958026349",
 				"long": "13.1871508804"
 			}
 		},
+		"Åkarp Skatepark": {
+			"City": "Åkarp",
+			"Address": "Elevvägen 2, 232 53 Åkarp",
+			"ImageUrl": "",
+			"Venue": "Outdoor",
+			"CommunityUrl": "http://www.bryggeriet.org/",
+			"coords": {
+				"lat": "55.656419",
+				"long": "13.109437"
+			}
+		},
 		"Bryggeriet": {
 			"City": "Malmö",
-			"Address": "",
+			"Address": "Ystadvägen 44, Malmö",
 			"ImageUrl": "",
-			"Level": "",
-			"CommunityUrl": "",
+			"Venue": "Indoor",
+			"CommunityUrl": "http://www.bryggeriet.org/",
 			"coords": {
 				"lat": "55.5806128358",
 				"long": "13.0176830292"
@@ -592,7 +603,7 @@
 			"City": "Malmö",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "55.6165411887",
@@ -601,10 +612,10 @@
 		},
 		"Stapelbäddsparken": {
 			"City": "Malmö",
-			"Address": "",
+			"Address": "Stapelbäddsgatan 1, Malmö",
 			"ImageUrl": "",
-			"Level": "",
-			"CommunityUrl": "",
+			"Venue": "Outdoor",
+			"CommunityUrl": "http://www.bryggeriet.org/",
 			"coords": {
 				"lat": "55.6132584762",
 				"long": "12.9843784179"
@@ -612,10 +623,10 @@
 		},
 		"Sibbarp Skatepark": {
 			"City": "Malmö",
-			"Address": "",
+			"Address": "Sommarvägen, 216 11 Limhamn",
 			"ImageUrl": "",
-			"Level": "",
-			"CommunityUrl": "",
+			"Venue": "Outdoor",
+			"CommunityUrl": "http://www.bryggeriet.org/",
 			"coords": {
 				"lat": "55.5747420253",
 				"long": "12.9091286659"
@@ -623,10 +634,10 @@
 		},
 		"Kroksbäck skatepark": {
 			"City": "Malmö",
-			"Address": "",
+			"Address": "Kroksbäcksstigen, 216 25 Malmö",
 			"ImageUrl": "",
-			"Level": "",
-			"CommunityUrl": "",
+			"Venue": "Outdoor",
+			"CommunityUrl": "http://www.bryggeriet.org/",
 			"coords": {
 				"lat": "55.571442787205",
 				"long": "12.970308021118"
@@ -634,10 +645,10 @@
 		},
 		"Oxie Skatepark": {
 			"City": "Malmö",
-			"Address": "",
+			"Address": "Oshögavägen 160, 238 32 Oxie",
 			"ImageUrl": "",
-			"Level": "",
-			"CommunityUrl": "",
+			"Venue": "Outdoor",
+			"CommunityUrl": "http://www.bryggeriet.org/",
 			"coords": {
 				"lat": "55.5412106488",
 				"long": "13.1026875973"
@@ -646,10 +657,10 @@
 		},
 		"Bara Skatepark": {
 			"City": "Malmö",
-			"Address": "",
+			"Address": "Henriette Coyets Gata 14-16, 230 40 Bara",
 			"ImageUrl": "",
-			"Level": "",
-			"CommunityUrl": "",
+			"Venue": "Outdoor",
+			"CommunityUrl": "http://www.bryggeriet.org/",
 			"coords": {
 				"lat": "55.5805823534",
 				"long": "13.173221218"
@@ -660,7 +671,7 @@
 			"City": "Kristianstad",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.0309522491",
@@ -673,7 +684,7 @@
 			"City": "Trelleborg",
 			"Address": "",
 			"ImageUrl": "",
-			"Level": "",
+			"Venue": "",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "55.3773670903",
