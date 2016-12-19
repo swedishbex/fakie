@@ -1,14 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fakie.ParkName">
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="fakie.ParkName">
 
 
 	
 	<StackLayout BackgroundColor="#FFCD00">
 
-			<Label x:Name="lblParkName" Text="" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32" HorizontalOptions="CenterAndExpand" Margin="0,50,0,0" /> 
+		<Label x:Name="lblParkName" Text="" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32" HorizontalOptions="CenterAndExpand" Margin="0,50,0,0" /> 
 
-			
-			</StackLayout>
+		<maps:Map
+            x:Name="MyMap"
+            IsShowingUser="true"
+            MapType="Hybrid"
+        />
+
+		<Label Text="Test" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32" HorizontalOptions="CenterAndExpand" Margin="0,20,0,20" /> 
+		
+	</StackLayout>
 
 </ContentPage>
 
