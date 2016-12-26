@@ -6,8 +6,6 @@ using Newtonsoft.Json.Linq;
 using Xamarin.Forms;
 using System.Globalization;
 
-// TESTAR
-
 namespace fakie
 {
 	public partial class ParkIndex : ContentPage
@@ -34,11 +32,11 @@ namespace fakie
 
 			foreach (var park in parksData)
 			{
-				var parkname = (JObject)park.Key;
+				var parkname = park.Key.ToString();
 
-				if (parkname.ToString().ToLower().StartsWith(charKey.ToLower(), StringComparison.Ordinal))
+				if (parkname.ToUpper().StartsWith(charKey.ToUpper(), StringComparison.Ordinal))
 				{
-					parks.Add(parkname.ToString().ToUpper());
+					parks.Add(parkname.ToUpper());
 				}
 			}
 

@@ -10,7 +10,7 @@
 	<StackLayout BackgroundColor="#FFCD00">
 
 		<Label x:Name="lblParkName" Text="" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32" HorizontalOptions="CenterAndExpand" Margin="0,50,0,10" /> 
-
+		<Label x:Name="lblUrl" Text="Url" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="16" HorizontalOptions="CenterAndExpand" Margin="10,0,10,10" /> 
 		<Label x:Name="lblAddress" Text="Adress" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="16" HorizontalOptions="CenterAndExpand" Margin="10,0,10,10" /> 
 		
 		<maps:Map
@@ -19,8 +19,6 @@
             MapType="Hybrid"
         />
 
-		<Label Text="Test" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32" HorizontalOptions="CenterAndExpand" Margin="0,20,0,20" /> 
-		
 	</StackLayout>
 
 </ContentPage>

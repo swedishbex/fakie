@@ -63,6 +63,19 @@ namespace fakie
 				lblAddress.Text = address;
 			}
 
+			if (dataForPark["CommunityUrl"] != null)
+			{
+				var hyperlink = dataForPark["CommunityUrl"].ToString();
+				lblUrl.Text = hyperlink;
+				var tapGestureRecognizer = new TapGestureRecognizer();
+				tapGestureRecognizer.Tapped += (s, e) =>
+				{
+					Device.OpenUri(new Uri(dataForPark["CommunityUrl"].ToString()));
+				};
+				lblUrl.GestureRecognizers.Add(tapGestureRecognizer);
+			}
+
+
 		}
 	}
 }
