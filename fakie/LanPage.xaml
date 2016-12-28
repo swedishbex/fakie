@@ -1,7 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fakie.LanPage">
 
-	<AbsoluteLayout>
+	<StackLayout BackgroundColor="#FFCD00">
+		<Label Text="LÄN" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32" HorizontalOptions="CenterAndExpand" Margin="0,50,0,0" />
+		<Button
+			Text="NORRA SVERIGE"
+			TextColor="White"
+			BackgroundColor="Black"
+			Font="Open Sans"
+			FontSize="20"
+			FontAttributes="Bold"
+			Margin="50,20,50,10"
+			BorderRadius="0" />
+		<Button
+			Text="MELLANSVERIGE"
+			TextColor="White"
+			BackgroundColor="Black"
+			Font="Open Sans"
+			FontSize="20"
+			FontAttributes="Bold"
+			Margin="50,0,50,10"
+			BorderRadius="0" />
+		<Button
+			Text="SÖDRA SVERIGE"
+			TextColor="White"
+			BackgroundColor="Black"
+			Font="Open Sans"
+			FontSize="20"
+			FontAttributes="Bold"
+			Margin="50,0,50,10"
+			BorderRadius="0" />
+	</StackLayout>
+	
+	<!--AbsoluteLayout>
 
 		
 
@@ -64,5 +95,5 @@
 			</RelativeLayout>
 		
 		
-	</AbsoluteLayout>
+	</AbsoluteLayout-->
 </ContentPage>

@@ -47,6 +47,9 @@
     <EmbeddedResource Include="CityLetters.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="RegionIndex.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -78,6 +81,9 @@
     <Compile Include="CityIndex.xaml.cs" />
     <Compile Include="CityLetters.xaml.cs">
       <DependentUpon>CityLetters.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegionIndex.xaml.cs">
+      <DependentUpon>RegionIndex.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
