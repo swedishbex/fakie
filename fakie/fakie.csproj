@@ -47,7 +47,10 @@
     <EmbeddedResource Include="CityLetters.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegionIndex.xaml">
+    <EmbeddedResource Include="LanRegionIndex.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegionAreaIndex.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -82,8 +85,11 @@
     <Compile Include="CityLetters.xaml.cs">
       <DependentUpon>CityLetters.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RegionIndex.xaml.cs">
-      <DependentUpon>RegionIndex.xaml</DependentUpon>
+    <Compile Include="LanRegionIndex.xaml.cs">
+      <DependentUpon>LanRegionIndex.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegionAreaIndex.xaml.cs">
+      <DependentUpon>RegionAreaIndex.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

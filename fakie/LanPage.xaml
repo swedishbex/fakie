@@ -11,7 +11,9 @@
 			FontSize="20"
 			FontAttributes="Bold"
 			Margin="50,20,50,10"
-			BorderRadius="0" />
+			BorderRadius="0"
+			Clicked="goLanNorra"
+		/>
 		<Button
 			Text="MELLANSVERIGE"
 			TextColor="White"
@@ -20,7 +22,9 @@
 			FontSize="20"
 			FontAttributes="Bold"
 			Margin="50,0,50,10"
-			BorderRadius="0" />
+			BorderRadius="0"
+			Clicked="goLanMellan"
+		/>
 		<Button
 			Text="SÖDRA SVERIGE"
 			TextColor="White"
@@ -29,71 +33,8 @@
 			FontSize="20"
 			FontAttributes="Bold"
 			Margin="50,0,50,10"
-			BorderRadius="0" />
+			BorderRadius="0"
+			Clicked="goLanSodra"
+		/>
 	</StackLayout>
-	
-	<!--AbsoluteLayout>
-
-		
-
-		<RelativeLayout BackgroundColor="#FFCD00" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
-
-				<Label Text="LÄN" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32"
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-30}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=75}"
-				/> 
-			
-			<Button Text="NORRA SVERIGE"  TextColor="White" Font="Open Sans" FontAttributes="Bold" BackgroundColor="Black" BorderRadius="2" WidthRequest="250" HeightRequest="40" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-125}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=225}"
-				/>
-
-			<Button Text="MELLAN SVERIGE"  TextColor="White" Font="Open Sans" FontAttributes="Bold" BackgroundColor="Black" BorderRadius="2" WidthRequest="250" HeightRequest="40" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-125}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=275}"
-				/>
-
-			<Button Text="SÖDRA SVERIGE"  TextColor="White" Font="Open Sans" FontAttributes="Bold" BackgroundColor="Black" BorderRadius="2" WidthRequest="250" HeightRequest="40" 
-				RelativeLayout.XConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=0.5,
-                             Constant=-125}"
-				RelativeLayout.YConstraint =
-      				"{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=1.0,
-                             Constant=325}"
-				/>
-
-			
-
-			</RelativeLayout>
-		
-		
-	</AbsoluteLayout-->
 </ContentPage>
