@@ -32,7 +32,7 @@
 			}
 		},
 	
-		"Västra götalands län": {
+		"Västra götaland": {
 			"Area": "Södra",
             "Cities": {
 				"0": "Göteborg",
@@ -546,24 +546,24 @@
 		},
 		"Tors Skatepark": {
 			"City": "Stehag",
-			"Address": "",
+			"Address": "Bäckavägen 8, 241 74 Stehag",
 			"ImageUrl": "",
-			"Venue": "",
-			"CommunityUrl": "",
+			"Venue": "Outdoor",
+			"CommunityUrl": "http://fktor.se/skatepark/",
 			"coords": {
-				"lat": "55.9027309542",
-				"long": "13.3983269952"
+				"lat": "55.902772",
+				"long": "13.398399"
 			}
 		},
 		"Östra Torn Skateboardhall": {
 			"City": "Lund",
-			"Address": "",
+			"Address": "Östratornsvägen 2, 224 68 Lund",
 			"ImageUrl": "",
-			"Venue": "",
+			"Venue": "Indoor",
 			"CommunityUrl": "",
 			"coords": {
-				"lat": "55.7097752",
-				"long": "13.2244644"
+				"lat": "55.709898",
+				"long": "13.224974"
 			}
 		},
 		"Söderlyckan Skatepark": {
@@ -599,17 +599,7 @@
 				"long": "13.0176830292"
 			}
 		},
-		"Badbryggan": {
-			"City": "Malmö",
-			"Address": "",
-			"ImageUrl": "",
-			"Venue": "",
-			"CommunityUrl": "",
-			"coords": {
-				"lat": "55.6165411887",
-				"long": "12.9758541008"
-			}
-		},
+	
 		"Stapelbäddsparken": {
 			"City": "Malmö",
 			"Address": "Stapelbäddsgatan 1, Malmö",
@@ -669,26 +659,26 @@
 		},
 		"Kristianstad streetplaza": {
 			"City": "Kristianstad",
-			"Address": "",
+			"Address": "Kanalgatan 30, 291 34 Kristianstad",
 			"ImageUrl": "",
-			"Venue": "",
+			"Venue": "Outdoor",
 			"CommunityUrl": "",
 			"coords": {
-				"lat": "56.0309522491",
-				"long": "14.1593814667"
+				"lat": "56.031248",
+				"long": "14.159273"
 			}
 
 		},
 	
 		"Gasverket": {
 			"City": "Trelleborg",
-			"Address": "",
+			"Address": "Gasverksgatan 5, 231 52 Trelleborg",
 			"ImageUrl": "",
-			"Venue": "",
+			"Venue": "Indoor",
 			"CommunityUrl": "",
 			"coords": {
-				"lat": "55.3773670903",
-				"long": "13.1592607498"
+				"lat": "55.377851",
+				"long": "13.159473"
 			}
 
 		}
@@ -735,97 +725,8 @@
 			
 			}
         }
-      },
+      }
 
-
-
-"cities": {
-		"Malmö": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Bryggeriet",
-				"1": "Badbryggan",
-                "2": "Stapelbäddsparken",
-				"3": "Sibbarp Skatepark",
-				"4": "Kroksbäck skatepark",
-				"5": "Oxie Skatepark",
-                "6": "Bara Skatepark"
-			}
-		},
-		"Örkelljunga": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Örkelljunga Skatepark"
-			}
-		},
-		"Ängelholm": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Ängelholm Skatepark"
-			}
-		},
-		"Höganäs": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Kullask8en Skatepark"
-			}
-		},
-		"Bjuv": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Bjuv Skatepark"
-			}
-		},
-		"Helsingborg": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Jutan"
-			}
-		},
-		"Landskrona": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Lagunen Skatepark"
-			}
-		},
-		"Kävlinge": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Kävlinge Skatepark"
-			}
-		},
-		"Höör": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Höör Skatepark"
-			}
-		},
-		"Stehag": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Tors Skatepark"
-			}
-		},
-		"Lund": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Östra Torn Skateboardhall",
-				"1": "Söderlyckan Skatepark"
-			}
-		},
-		"Kristianstad": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Kristianstad Streetplaza"
-			}
-		},	
-		"Trelleborg": {
-			"Region": "Skåne",
-			"Parks": {
-				"0": "Gasverket"
-			}
-		}
-  }
 }
 			
 
