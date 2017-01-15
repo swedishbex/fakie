@@ -446,10 +446,10 @@
 		},
 		"Karlskrona Skatepark": {
 			"City": "Karlskrona",
-			"Address": "",
+			"Address": "Skeppsbrokajen",
 			"ImageUrl": "",
-			"Venue": "",
-			"CommunityUrl": "",
+			"Venue": "Inddor",
+			"CommunityUrl": "https://www.facebook.com/Carlskrona/",
 			"coords": {
 				"lat": "56.1663138829",
 				"long": "15.5935840649"
@@ -458,9 +458,9 @@
               
 		"Örkelljunga Skatepark": {
 			"City": "Örkelljunga",
-			"Address": "",
-			"ImageUrl": "",
-			"Venue": "",
+			"Address": "Bangatan 16, 286 37 Örkelljunga",
+			"ImageUrl": "http://www.skateboard.com.au/images/orkelljungaskatepark2.jpg",
+			"Venue": "Outdoor",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.2829322582",
@@ -469,10 +469,10 @@
 		},
 		"Ängelholm Skatepark": {
 			"City": "Ängeholm",
-			"Address": "",
-			"ImageUrl": "",
-			"Venue": "",
-			"CommunityUrl": "",
+			"Address": "Gåsahalsvägen 4, 262 41 Ängelholm",
+			"ImageUrl": "http://www.skateboard.com.au/images/angelholmmc1.jpg",
+			"Venue": "Outdoor",
+			"CommunityUrl": "https://www.facebook.com/pages/ngelholms-Skatepark/445064862253468",
 			"coords": {
 				"lat": "56.2459407348",
 				"long": "12.880050955"
@@ -480,9 +480,9 @@
 		},	
 		"Kullask8en": {
 			"City": "Höganäs",
-			"Address": "",
+			"Address": "Långarödsvägen 30, 263 32 Höganäs",
 			"ImageUrl": "",
-			"Venue": "",
+			"Venue": "Outdoor",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.1940464282",
@@ -491,20 +491,20 @@
 		},
 		"Bjuv Skatepark": {
 			"City": "Bjuv",
-			"Address": "",
+			"Address": "Bankgatan 5, 267 34 Bjuv",
 			"ImageUrl": "",
-			"Venue": "",
+			"Venue": "Outdoor",
 			"CommunityUrl": "",
 			"coords": {
-				"lat": "56.0857889",
-				"long": "12.9155082"
+				"lat": "56.085425",
+				"long": "12.913682"
 			}
 		},
 		"Jutan": {
 			"City": "Helsingborg",
-			"Address": "",
-			"ImageUrl": "",
-			"Venue": "",
+			"Address": "Västra Sandgatan 15, 252 25 Helsingborg",
+			"ImageUrl": "http://www.skateboard.com.au/images/helsin2.jpg",
+			"Venue": "Indoor",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "56.0315936",
@@ -513,9 +513,9 @@
 		},
 		"Lagunen Skatepark": {
 			"City": "Landskrona",
-			"Address": "",
-			"ImageUrl": "",
-			"Venue": "",
+			"Address": " Selma Lagerlöfs väg 55, 261 31 Landskrona",
+			"ImageUrl": "http://www.skateboard.com.au/images/Landskronaskatepark5.jpg",
+			"Venue": "Outdoor",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "55.8714906",
@@ -524,9 +524,9 @@
 		},
 		"Kävlinge Skatepark": {
 			"City": "Kävlinge",
-			"Address": "",
+			"Address": "Friluftsgatan 6, 244 65 Furulund",
 			"ImageUrl": "",
-			"Venue": "",
+			"Venue": "Outdoor",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "55.7836506598",
@@ -535,9 +535,9 @@
 		},
 		"Höör Skatepark": {
 			"City": "Höör",
-			"Address": "",
+			"Address": "Thornbergsgatan, 243 30 Höör",
 			"ImageUrl": "",
-			"Venue": "",
+			"Venue": "Outdoor",
 			"CommunityUrl": "",
 			"coords": {
 				"lat": "55.9357320943",
@@ -560,7 +560,7 @@
 			"Address": "Östratornsvägen 2, 224 68 Lund",
 			"ImageUrl": "",
 			"Venue": "Indoor",
-			"CommunityUrl": "",
+			"CommunityUrl": "xxx",
 			"coords": {
 				"lat": "55.709898",
 				"long": "13.224974"
@@ -591,7 +591,7 @@
 		"Bryggeriet": {
 			"City": "Malmö",
 			"Address": "Ystadvägen 44, Malmö",
-			"ImageUrl": "",
+			"ImageUrl": "http://www.skateboard.com.au/images/bruckeriet1.jpg",
 			"Venue": "Indoor",
 			"CommunityUrl": "http://www.bryggeriet.org/",
 			"coords": {
@@ -603,7 +603,7 @@
 		"Stapelbäddsparken": {
 			"City": "Malmö",
 			"Address": "Stapelbäddsgatan 1, Malmö",
-			"ImageUrl": "",
+			"ImageUrl": "http://www.skateboard.com.au/images/stappel6.jpg",
 			"Venue": "Outdoor",
 			"CommunityUrl": "http://www.bryggeriet.org/",
 			"coords": {
@@ -614,7 +614,7 @@
 		"Sibbarp Skatepark": {
 			"City": "Malmö",
 			"Address": "Sommarvägen, 216 11 Limhamn",
-			"ImageUrl": "",
+			"ImageUrl": "http://www.skateboard.com.au/images/Sibbarp2.jpg",
 			"Venue": "Outdoor",
 			"CommunityUrl": "http://www.bryggeriet.org/",
 			"coords": {
@@ -625,7 +625,7 @@
 		"Kroksbäck skatepark": {
 			"City": "Malmö",
 			"Address": "Kroksbäcksstigen, 216 25 Malmö",
-			"ImageUrl": "",
+			"ImageUrl": "http://www.skateboard.com.au/images/kroksbackvans1.jpg",
 			"Venue": "Outdoor",
 			"CommunityUrl": "http://www.bryggeriet.org/",
 			"coords": {
@@ -636,7 +636,7 @@
 		"Oxie Skatepark": {
 			"City": "Malmö",
 			"Address": "Oshögavägen 160, 238 32 Oxie",
-			"ImageUrl": "",
+			"ImageUrl": "http://www.skateboard.com.au/images/Oxie4.jpg",
 			"Venue": "Outdoor",
 			"CommunityUrl": "http://www.bryggeriet.org/",
 			"coords": {
@@ -648,7 +648,7 @@
 		"Bara Skatepark": {
 			"City": "Malmö",
 			"Address": "Henriette Coyets Gata 14-16, 230 40 Bara",
-			"ImageUrl": "",
+			"ImageUrl": "http://www.skateboard.com.au/images/Bara1.jpg",
 			"Venue": "Outdoor",
 			"CommunityUrl": "http://www.bryggeriet.org/",
 			"coords": {
@@ -660,7 +660,7 @@
 		"Kristianstad streetplaza": {
 			"City": "Kristianstad",
 			"Address": "Kanalgatan 30, 291 34 Kristianstad",
-			"ImageUrl": "",
+			"ImageUrl": "http://www.skateboard.com.au/images/Kristianstadskatepark5.jpg",
 			"Venue": "Outdoor",
 			"CommunityUrl": "",
 			"coords": {
