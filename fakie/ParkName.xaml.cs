@@ -48,13 +48,22 @@ namespace fakie
 			if (dataForPark["CommunityUrl"] != null)
 			{
 				var hyperlink = dataForPark["CommunityUrl"].ToString();
-				lblUrl.Text = hyperlink;
-				var tapGestureRecognizer = new TapGestureRecognizer();
-				tapGestureRecognizer.Tapped += (s, e) =>
+				if (!string.IsNullOrEmpty(hyperlink))
 				{
-					Device.OpenUri(new Uri(dataForPark["CommunityUrl"].ToString()));
-				};
-				lblUrl.GestureRecognizers.Add(tapGestureRecognizer);
+					lblUrl.Text = hyperlink;
+					lblUrl.Clicked += (s, e) =>
+					{
+						Device.OpenUri(new Uri(dataForPark["CommunityUrl"].ToString()));
+					};
+				}
+			}
+
+			if (dataForPark["ImageUrl"] != null)
+			{
+				var imageUrl = dataForPark["ImageUrl"].ToString();
+				if (!string.IsNullOrEmpty(imageUrl)) {
+					imgPark.Source = ImageSource.FromUri(new Uri(imageUrl));
+				}
 			}
 
 
