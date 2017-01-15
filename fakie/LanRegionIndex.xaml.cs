@@ -50,7 +50,8 @@ namespace fakie
 		{
 			if (regionsData == null)
 			{
-				regionsData = await firebaseAPI.doGet("regions", "", "");
+				//regionsData = await firebaseAPI.doGet("regions", "", "");
+				regionsData = await DataManager.GetRegions();
 			}
 
 			foreach (var region in regionsData)
