@@ -8,8 +8,6 @@ namespace fakie
 {
 	public partial class ParkName : ContentPage
 	{
-
-		static JObject parksData = null;
 		JObject dataForPark = null;
 
 		public ParkName(string parkName)
@@ -17,27 +15,11 @@ namespace fakie
 			InitializeComponent();
 			lblParkName.Text = parkName;
 			loadData(parkName);
-
-
 		}
 
 		async void loadData(string parkName)
 		{
-			/* TODO: This could be more optimal implemented */
-
-			if (parksData == null)
-			{
-				parksData = await firebaseAPI.doGet("parks", "", "");
-			}
-
-			foreach (var park in parksData)
-			{
-				if (park.Key.ToUpper() == parkName.ToUpper())
-				{
-					dataForPark = (JObject) park.Value;
-					break;
-				}
-			}
+			dataForPark = await DataManager.GetPark(parkName);
 
 			var lat = double.Parse(dataForPark["coords"]["lat"].ToString());
 			var lng = double.Parse(dataForPark["coords"]["long"].ToString());
@@ -66,13 +48,22 @@ namespace fakie
 			if (dataForPark["CommunityUrl"] != null)
 			{
 				var hyperlink = dataForPark["CommunityUrl"].ToString();
-				lblUrl.Text = hyperlink;
-				var tapGestureRecognizer = new TapGestureRecognizer();
-				tapGestureRecognizer.Tapped += (s, e) =>
+				if (!string.IsNullOrEmpty(hyperlink))
 				{
-					Device.OpenUri(new Uri(dataForPark["CommunityUrl"].ToString()));
-				};
-				lblUrl.GestureRecognizers.Add(tapGestureRecognizer);
+					lblUrl.Text = hyperlink;
+					lblUrl.Clicked += (s, e) =>
+					{
+						Device.OpenUri(new Uri(dataForPark["CommunityUrl"].ToString()));
+					};
+				}
+			}
+
+			if (dataForPark["ImageUrl"] != null)
+			{
+				var imageUrl = dataForPark["ImageUrl"].ToString();
+				if (!string.IsNullOrEmpty(imageUrl)) {
+					imgPark.Source = ImageSource.FromUri(new Uri(imageUrl));
+				}
 			}
 
 

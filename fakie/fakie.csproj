@@ -91,6 +91,7 @@
     <Compile Include="RegionAreaIndex.xaml.cs">
       <DependentUpon>RegionAreaIndex.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DataManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">

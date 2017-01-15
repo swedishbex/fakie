@@ -12,6 +12,7 @@ namespace fakie
 		{
 			InitializeComponent();
 			NavigationPage.SetHasNavigationBar(this, false);
+			contactBtn.Command = new Command(async o => { Device.OpenUri(new Uri("https://www.facebook.com/skatefakie/")); });
 		}
 
 		void goPark(object sender, EventArgs e)
@@ -24,9 +25,9 @@ namespace fakie
 			Navigation.PushAsync(new CityLetters());
 		}
 
-		 void goLan(object sender, EventArgs e)
+		void goLan(object sender, EventArgs e)
 		{
-			 Navigation.PushAsync(new LanPage());
+			Navigation.PushAsync(new LanPage());
 		}
 
 	}

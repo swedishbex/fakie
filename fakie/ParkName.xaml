@@ -6,20 +6,24 @@
 	x:Class="fakie.ParkName">
 
 
-	
+	<ScrollView>
 	<StackLayout BackgroundColor="#FFCD00">
-
-		<Label x:Name="lblParkName" Text="" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32" HorizontalOptions="CenterAndExpand" Margin="0,50,0,10" /> 
-		<Label x:Name="lblUrl" Text="Url" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="16" HorizontalOptions="CenterAndExpand" Margin="10,0,10,10" /> 
-		<Label x:Name="lblAddress" Text="Adress" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="16" HorizontalOptions="CenterAndExpand" Margin="10,0,10,10" /> 
 		
-		<maps:Map
-            x:Name="MyMap"
-            IsShowingUser="true"
-            MapType="Hybrid"
-        />
-
+			<Label x:Name="lblParkName" Text="" TextColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="32" HorizontalOptions="CenterAndExpand" Margin="0,20,0,20" /> 
+			<Image x:Name="imgPark" Aspect="AspectFill" Margin="50,0,50,0"></Image>
+			
+			<Button x:Name="lblUrl" Text="Url" TextColor="White" BackgroundColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="14" HorizontalOptions="FillAndExpand" Margin="50,20,50,10" BorderRadius="0" /> 
+			<Button x:Name="lblAddress" Text="Adress" TextColor="White" BackgroundColor="Black" Font="Open Sans" FontAttributes="Bold" FontSize="14" HorizontalOptions="FillAndExpand" Margin="50,0,50,10" BorderRadius="0"/> 
+			
+			<maps:Map
+	            x:Name="MyMap"
+	            IsShowingUser="true"
+	            MapType="Street"
+				Margin="50,20,50,20"
+	        />
+        
 	</StackLayout>
+	</ScrollView>
 
 </ContentPage>
 

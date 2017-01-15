@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.bexrex.fakie">
-	<uses-sdk android:minSdkVersion="15" />
+	<uses-sdk android:minSdkVersion="24" android:targetSdkVersion="24" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 	<application android:label="fakie">
+		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBVTenC2CT5A69n8LNK74_0o3NATFP-Iuw" />
 	</application>
 </manifest>
